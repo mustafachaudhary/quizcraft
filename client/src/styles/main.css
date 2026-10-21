@@ -1,0 +1,18 @@
+/* QuizCraft styles, in load order.
+ *
+ * tokens.css   the measured values: ground, ink, one data hue, type scale, space
+ * base.css     element defaults: type, links, buttons, forms, site chrome
+ * pages.css    the page layouts: landing, dashboard, discover, editor, take
+ * theme.css    the surface and colour overrides that give the app its look
+ *
+ * The look it lands on: a near-black ground (#0e0d0c) with surfaces one and two
+ * lightness steps above it (#181716, #2a2a2a), so elevation is lightness rather
+ * than a border or a shadow. Colour is spent on data only — the correct answer,
+ * the score, the question tally, the answer key — and the one primary control is
+ * a white pill. Inter carries every role. The ten-notch tally, the score figure
+ * and the answer key are the pieces worth remembering.
+ */
+@import url("./tokens.css");
+@import url("./base.css");
+@import url("./pages.css");
+@import url("./theme.css");
